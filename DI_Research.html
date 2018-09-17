@@ -17,13 +17,14 @@
 			section#main .first {
 			background: #DCDCDC;
 			}
-			h1, h2, h3, h4, h5, h6 {
+			h2, h3, h4, h5, h6 {
 			font-family: open-sans, sans-serif;
 			LINE-HEIGHT: 1.875em
 			}
 			h1 {
-			font-size: 2.5em;
-			color: #125d62;
+			text-align::bottom
+			font-size: 2em;
+			color: #125d62;	
 			}
 			h2 {
 			font-size: 1.875em;
@@ -45,8 +46,8 @@
 			LINE-HEIGHT: 1.875em
 			}
 			footer  {
-			background-color: #125d62;
-			color: #fff;
+			background-color: #fff;
+			color: #125d62;
 			padding: 2.5em; 
 			margin: 0.5em 0;
 			border-top: 0.1px solid #125d62; 
@@ -67,24 +68,24 @@
 			margin: 0;
 			}
 			img.logo {
-			max-width: 30%;
-			max-height: 30%;
+			max-width: 60%;
+			max-height: 60%;
 			}
 			img.resize {
-			max-width:60%;
-			max-height:60%;
+			max-width:100%;
+			max-height:100%;
 			}
 			a:link {
-			color: #fff;
+			color: #125d62;
 			}
 			a:visited {
-			color: #fff;
+			color: #125d62;
 			}
 			a:hover {
-			color: #efefef;
+			color: #04B4AE;
 			}
 			a:active {
-			color: #efefef;
+			color: #04B4AE;
 			}
 			.screen-reader {
 			border: 0;
@@ -112,11 +113,19 @@
 	<body class="container">
 		<header>
 			<a class="screen-reader screen-reader-focusable" href="#content">Saltar para as notícias</a>
-			<h1><img class="logo" src="Le@dResearchdistrict.jpg" alt="Lead Research News" ></h1>
+			<div class="row">
+				<div class="col-sm">
+					<p><img class="logo" src="Le@dResearchdistrict.jpg" alt="Lead Research News" ></p>
+				</div>
+			
+				<div class="col-sm">
+					<h1>Newsletter Julho 2018</h1>
+				</div>
+			</div>
 		</header>
 		<section role="main">
 			<a id="content"></a>
-			<h2>Newsletter Julho 2018</h2>
+			<h2><a href="https://lead.uab.pt/" target="_blank">LE@D | Laboratório de Educação a Distância e eLearning</a></h2>
 			<div id="main">
 				<div class="row">
 					<div class="col-sm">
@@ -153,17 +162,19 @@
 			<div class="row">
 				<div class="col-sm">
 					<h4>Contacto</h4>
-					<a href="https://lead.uab.pt/" target="_blank">https://lead.uab.pt/</a>
 					<p>leadnews.uab@gmail.com</p>
 				</div>
 				<div class="col-sm">
-					<img class="resize" src="sigla_lead_b.jpg" alt="Logótipo do Laboratório de educação a distância" > 
+					<img class="resize" src="logo_lead.gif" alt="Logótipo do Laboratório de educação a distância" > 
 				</div>
 				<div class="col-sm">
-					<img class="resize" src="logo_uab.png" alt="Logótipo da Universidade Aberta"> 
+					<img class="resize" src="Digital_PT_4C_V_FC_RP.png" alt="Logótipo da República Portuguesa"> 
 				</div>
 				<div class="col-sm">
-					<img class="resize" src="logo_fct.png" alt="Logótipo da Fundação para a Ciênciae Tecnologia"> 
+					<img class="resize" src="2017_FCT_H_cor.jpg" alt="Logótipo da Fundação para a Ciênciae Tecnologia"> 
+				</div>
+				<div class="col-sm">
+					<img class="resize" src="IG_AssinaturaEletronica_2sobre_fundo_branco-300x76.jpg" alt="Logótipo da Universidade Aberta"> 
 				</div>
 			</div>
 		</footer>
